@@ -1,0 +1,3 @@
+* Strange on first sight
+- 1i32
+This is a numerical literal of value 1, and it has a type annotation to be stored as i32.
