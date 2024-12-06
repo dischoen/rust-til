@@ -12,5 +12,7 @@ fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
 
 ## impl
 ## self and Self
+https://stackoverflow.com/questions/32304595/whats-the-difference-between-self-and-self
+
 ## data.0
 could be anything instead of data. I guess it's accessing struct elements or similar by numerical index.
