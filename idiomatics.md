@@ -4,3 +4,6 @@
 This is a numerical literal of value 1, and it has a type annotation to be stored as i32.
 ## serialize csv files with a serde struct and a header
 Struct members and header names must match exactly.
+
+## There is no close in fs::File
+Files are closed when they go out of scope.
