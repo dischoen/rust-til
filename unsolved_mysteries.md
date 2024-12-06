@@ -1,8 +1,8 @@
-* Unsolved mysteries
+# Unsolved mysteries
 Here I collect rust snippets which I absolutely not understand at the moment.
 Eventually they will move oder to idiomatics.org. I hope.
 
-** formatter definition
+## formatter definition
 
 ```
 fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
@@ -10,7 +10,7 @@ fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
     }
 ```
 
-** impl
-** self and Self
-** data.0
+## impl
+## self and Self
+## data.0
 could be anything instead of data. I guess it's accessing struct elements or similar by numerical index.
