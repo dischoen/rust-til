@@ -3,9 +3,11 @@ Here I collect rust snippets which I absolutely not understand at the moment.
 Eventually they will move oder to idiomatics.org. I hope.
 
 ** formatter definition
+```
 fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "{}", hex::encode(&self.0))
     }
+```
 
 ** impl
 ** self and Self
