@@ -9,3 +9,8 @@ Struct members and header names must match exactly.
 
 ## There is no close in fs::File
 Files are closed when they go out of scope.
+It should be possible to drop(File).
+
+## closure with multiple statements
+
+enclose them in acurly-brackets-block
